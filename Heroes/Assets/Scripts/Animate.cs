@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Deplacement : MonoBehaviour
 {
-
+    
     // Variables de vitesse
     public float vitesse = 2.0f;
     public float vitesseMarche = 2.0f;
@@ -13,7 +13,7 @@ public class Deplacement : MonoBehaviour
     public float vitesseLaterale = 2.0f;
 
     // Variables collider et rigidBody
-    public float hauteurSaut = 8.0f;
+    public float hauteurSaut = 20.0f;
     private bool estAuSol = true;
 
     // Variables pour les animations
@@ -26,6 +26,11 @@ public class Deplacement : MonoBehaviour
     private bool estEnSaut = false;
     //declaration
     private Animator animator;
+    [Header("Tools Audio")]
+    [SerializeField]
+    private AudioSource audioSource;
+    [SerializeField]
+    private AudioClip walkSound;
 
     void Awake()
     {
@@ -53,6 +58,8 @@ public class Deplacement : MonoBehaviour
         // marche course et marche-arrière
         if (deplacementVertical > 0 && !Input.GetKey(KeyCode.LeftControl))
         {
+            audioSource.clip = walkSound;
+            audioSource.play();
             estMarcheAvant = true;
             estMarcheAvantCourse = false;
             estMarcheArriere = false;
@@ -62,7 +69,7 @@ public class Deplacement : MonoBehaviour
             animator.SetBool("Walk", true);
             
         }
-        else if (deplacementVertical > 0 && Input.GetKey(KeyCode.LeftControl))
+        if (deplacementVertical > 0 && Input.GetKey(KeyCode.LeftControl))
         {
             estMarcheAvant = false;
             estMarcheAvantCourse = true;
@@ -72,7 +79,7 @@ public class Deplacement : MonoBehaviour
             animator.SetBool("Run", true);
             
         }
-        else if (deplacementVertical < 0)
+        if (deplacementVertical < 0)
         {
             estMarcheAvant = false;
             estMarcheAvantCourse = false;
@@ -87,14 +94,17 @@ public class Deplacement : MonoBehaviour
             if (estMarcheAvant)
             {
                 vitesseLaterale = vitesseMarche;
+                transform.Rotate(Time.deltaTime * vitesseLaterale, 0, 0, Space.Self);
             }
             else if (estMarcheAvantCourse)
             {
                 vitesseLaterale = vitesseCourse;
+                transform.Rotate(Time.deltaTime * vitesseLaterale, 0, 0, Space.Self);
             }
             else if (estMarcheArriere)
             {
                 vitesseLaterale = vitesseArriere;
+                transform.Rotate(Time.deltaTime * vitesseLaterale, 0, 0, Space.Self);
             }
             deplacementHorizontal = Input.GetAxis("Horizontal") * vitesseLaterale * Time.deltaTime;
             Debug.Log("Déplacement à droite" + vitesseLaterale);

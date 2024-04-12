@@ -1,0 +1,1002 @@
+Unity Editor version:    2022.3.22f1 (887be4894c44)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.4.1 (Build 23E224)
+Darwin version:          23.4.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/leon.loukine/Documents/GitHub/UnityKnight/Heroes
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49341
+Successfully changed project path to: /Users/leon.loukine/Documents/GitHub/UnityKnight/Heroes
+/Users/leon.loukine/Documents/GitHub/UnityKnight/Heroes
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704546418944] Host "[IP] 192.168.0.14 [Port] 0 [Flags] 2 [Guid] 1769091864 [EditorId] 1769091864 [Version] 1048832 [Id] OSXEditor(0,liova.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704546418944] Host "[IP] 192.168.0.14 [Port] 0 [Flags] 2 [Guid] 1769091864 [EditorId] 1769091864 [Version] 1048832 [Id] OSXEditor(0,liova.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 23.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/leon.loukine/Documents/GitHub/UnityKnight/Heroes/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 655
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56954
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.22f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.007370 seconds.
+- Loaded All Assemblies, in  0.534 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.369 seconds
+Domain Reload Profiling: 903ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (216ms)
+		LoadAssemblies (181ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (210ms)
+			TypeCache.Refresh (208ms)
+				TypeCache.ScanAssembly (187ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (370ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (288ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (209ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.108 seconds
+Refreshing native plugins compatible for Editor in 3.53 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.124 seconds
+Domain Reload Profiling: 2233ms
+	BeginReloadAssembly (206ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (786ms)
+		LoadAssemblies (556ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (337ms)
+			TypeCache.Refresh (301ms)
+				TypeCache.ScanAssembly (262ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1125ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (897ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (790ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 3.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3518 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (52.9 KB). Loaded Objects now: 3998.
+Memory consumption went from 152.4 MB to 152.3 MB.
+Total: 5.290361 ms (FindLiveObjects: 0.366356 ms CreateObjectMapping: 0.252409 ms MarkObjects: 4.408790 ms  DeleteObjects: 0.261509 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1109.650413 seconds.
+  path: Assets/STORM EFFECT
+  artifactKey: Guid(18c602bcd766542c5b196de5772cbbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STORM EFFECT using Guid(18c602bcd766542c5b196de5772cbbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dddd946c89b6051db8a9d8af79cfb9a8') in 0.002161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.674247 seconds.
+  path: Assets/TEXT MESH PRO
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TEXT MESH PRO using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa766ae3445ed01dbd460bb6fc265023') in 0.000437 seconds
+Number of updated asset objects reloaded before import = 9
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 32.690167 seconds.
+  path: Assets/Models
+  artifactKey: Guid(9759fa9c73b6a49028c28fe7761d4911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(9759fa9c73b6a49028c28fe7761d4911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0e064b1fc11566b9713c4d1d092bf0') in 0.000539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.128761 seconds.
+  path: Assets/Models/Nature
+  artifactKey: Guid(bac85548add5d4f9b8f7f4548412cec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature using Guid(bac85548add5d4f9b8f7f4548412cec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56322f6493cb7fcab58b2e39798a37da') in 0.000699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.850807 seconds.
+  path: Assets/Models/Nature/Tree_Birch
+  artifactKey: Guid(dba6bf20e9c964c89b99170722831782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/Tree_Birch using Guid(dba6bf20e9c964c89b99170722831782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74bdbd142f16c5bb1cb7777f3d88617c') in 0.000486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.128609 seconds.
+  path: Assets/Models/Nature/Tree_Birch/tree_birch_01_a.fbx
+  artifactKey: Guid(304a59cf6680e2d45a94ceeb3a713063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/Tree_Birch/tree_birch_01_a.fbx using Guid(304a59cf6680e2d45a94ceeb3a713063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9077f86dc5fcde2cc2c885f50d652ac6') in 1.858025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 11.215837 seconds.
+  path: Assets/Models/Nature/Tree_Birch/SOURCEFILES
+  artifactKey: Guid(a98fe835605094178b8a0201685cdae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/Tree_Birch/SOURCEFILES using Guid(a98fe835605094178b8a0201685cdae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4c899c69dd1ed99d56aee2a142b934') in 0.001046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.543877 seconds.
+  path: Assets/Models/Nature/Tree_Birch/Materials
+  artifactKey: Guid(af2259daab1574f589848ef34a89bc17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/Tree_Birch/Materials using Guid(af2259daab1574f589848ef34a89bc17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8142023decce01d9d92fb03e9f1edf2d') in 0.000839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.087556 seconds.
+  path: Assets/Models/Nature/Tree_Birch/Materials/tree_birch_01_leaves.mat
+  artifactKey: Guid(78281156e90aef244a489b9e41ee1e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/Tree_Birch/Materials/tree_birch_01_leaves.mat using Guid(78281156e90aef244a489b9e41ee1e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08244e93cce484413fafad756e050518') in 0.078114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 33.480232 seconds.
+  path: Assets/DECORS
+  artifactKey: Guid(9759fa9c73b6a49028c28fe7761d4911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DECORS using Guid(9759fa9c73b6a49028c28fe7761d4911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6d9e86863d37d0a686d9fad5e54e7e') in 0.000869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.767 seconds
+Refreshing native plugins compatible for Editor in 3.35 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.324 seconds
+Domain Reload Profiling: 3092ms
+	BeginReloadAssembly (239ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (75ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (414ms)
+		LoadAssemblies (510ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2325ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1263ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (1102ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 6.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3497 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.6 KB). Loaded Objects now: 4049.
+Memory consumption went from 161.2 MB to 161.1 MB.
+Total: 7.649062 ms (FindLiveObjects: 0.400763 ms CreateObjectMapping: 0.341957 ms MarkObjects: 6.825230 ms  DeleteObjects: 0.079553 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.960 seconds
+Refreshing native plugins compatible for Editor in 4.53 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.293 seconds
+Domain Reload Profiling: 4254ms
+	BeginReloadAssembly (303ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (103ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (507ms)
+		LoadAssemblies (621ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (3295ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1692ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (121ms)
+			ProcessInitializeOnLoadAttributes (1492ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 7.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3498 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.6 KB). Loaded Objects now: 4052.
+Memory consumption went from 170.5 MB to 170.5 MB.
+Total: 9.046302 ms (FindLiveObjects: 0.533722 ms CreateObjectMapping: 0.411952 ms MarkObjects: 8.008598 ms  DeleteObjects: 0.089699 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 19141.771609 seconds.
+  path: Assets/Heroe's.unity
+  artifactKey: Guid(802fb264e3ee441ff91cc71cc9e9e682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Heroe's.unity using Guid(802fb264e3ee441ff91cc71cc9e9e682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4dda59148bd028265f6d8db5fd8c5b') in 0.003205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.057 seconds
+Refreshing native plugins compatible for Editor in 2.98 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+System.InvalidOperationException: The operation is not possible when moved past all properties (Next returned false)
+  at UnityEditor.SerializedProperty.get_stringValue () [0x00012] in /Users/bokken/build/output/unity/unity/Editor/Mono/SerializedProperty.bindings.cs:1148 
+  at DevionGames.WriteInputManager.AxisDefined (System.String axisName) [0x0003c] in /Users/leon.loukine/Documents/GitHub/UnityKnight/Heroes/Assets/Devion Games/Third Person Controller/Scripts/Editor/WriteInputManager.cs:84 
+  at DevionGames.WriteInputManager..cctor () [0x00000] in /Users/leon.loukine/Documents/GitHub/UnityKnight/Heroes/Assets/Devion Games/Third Person Controller/Scripts/Editor/WriteInputManager.cs:13 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:127)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 127)
+
+Fixing exec order for 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DevionGames.StatSystem.ExecutionOrderValidator:.cctor () (at Assets/Devion Games/Stat System/Scripts/Editor/ExecutionOrderValidator.cs:18)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:119)
+
+(Filename: Assets/Devion Games/Stat System/Scripts/Editor/ExecutionOrderValidator.cs Line: 18)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.881 seconds
+Domain Reload Profiling: 2938ms
+	BeginReloadAssembly (284ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (89ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (624ms)
+		LoadAssemblies (683ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (80ms)
+			TypeCache.Refresh (32ms)
+				TypeCache.ScanAssembly (17ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1881ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (885ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (764ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4083 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (0.8 MB). Loaded Objects now: 4635.
+Memory consumption went from 196.8 MB to 196.0 MB.
+Total: 6.110929 ms (FindLiveObjects: 0.452166 ms CreateObjectMapping: 0.375145 ms MarkObjects: 4.721965 ms  DeleteObjects: 0.560405 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 264.577090 seconds.
+  path: Assets/Devion Games
+  artifactKey: Guid(83f6741c51c21428a91bb22d39cd8e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devion Games using Guid(83f6741c51c21428a91bb22d39cd8e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7609cd0c9f5508909c2b3a476445c88') in 0.004568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.265691 seconds.
+  path: Assets/Devion Games/Character System
+  artifactKey: Guid(2652f850123663d4ea309188d2f9f7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devion Games/Character System using Guid(2652f850123663d4ea309188d2f9f7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab1b10eac5c18c4d0fc4fe529b638c1') in 0.000538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.356557 seconds.
+  path: Assets/Devion Games/Character System/Scripts
+  artifactKey: Guid(6f45b27980103ac4ebd72e8ac1649f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devion Games/Character System/Scripts using Guid(6f45b27980103ac4ebd72e8ac1649f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71281a7cddb962549aab85f8fc881072') in 0.000486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.536453 seconds.
+  path: Assets/Devion Games/Third Person Controller
+  artifactKey: Guid(00404949c08b3094d8e8966ebebed573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devion Games/Third Person Controller using Guid(00404949c08b3094d8e8966ebebed573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfc903abb157478121be882872948de') in 0.000610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.521763 seconds.
+  path: Assets/Devion Games/Third Person Controller/Example
+  artifactKey: Guid(c0b764e2dea3b3949a2ad925d639f3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devion Games/Third Person Controller/Example using Guid(c0b764e2dea3b3949a2ad925d639f3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5929be1eea3e48343b9e89dd7f6fbe16') in 0.000921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.656581 seconds.
+  path: Assets/Devion Games/Third Person Controller/Example/Animator Controllers
+  artifactKey: Guid(62adf39223298454ab7a6a12cc1c9135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devion Games/Third Person Controller/Example/Animator Controllers using Guid(62adf39223298454ab7a6a12cc1c9135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '560f6c8a1b5662204468aa9e3bba4e94') in 0.000872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.085071 seconds.
+  path: Assets/Devion Games/Third Person Controller/Example/Animator Controllers/Arms.mask
+  artifactKey: Guid(387db0db762659a40bb3ab6cb3c35cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devion Games/Third Person Controller/Example/Animator Controllers/Arms.mask using Guid(387db0db762659a40bb3ab6cb3c35cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f67001ac66360a0903dfb6e6794c0283') in 0.033572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.564962 seconds.
+  path: Assets/Devion Games/Third Person Controller/Example/Art
+  artifactKey: Guid(e70f4e4aa5c26e74bb45c830c50aec18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devion Games/Third Person Controller/Example/Art using Guid(e70f4e4aa5c26e74bb45c830c50aec18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140ab2fa7bc6ad0c764e5fd9cd8fea26') in 0.000679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.627321 seconds.
+  path: Assets/Devion Games/Third Person Controller/Example/Art/Default Avatar
+  artifactKey: Guid(f4cd4503e38138543939aee58f74bb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devion Games/Third Person Controller/Example/Art/Default Avatar using Guid(f4cd4503e38138543939aee58f74bb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a9c69f18fae0357b0e9e7c56a44a1e') in 0.000489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.343032 seconds.
+  path: Assets/Devion Games/Third Person Controller/Example/Art/Default Avatar/DefaultAvatar.fbx
+  artifactKey: Guid(2ab0893f5bba9b243b65e309e78089d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devion Games/Third Person Controller/Example/Art/Default Avatar/DefaultAvatar.fbx using Guid(2ab0893f5bba9b243b65e309e78089d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a50ecc1f30ce3b2ce65bcfcea42292a') in 0.742282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 194
+========================================================================
+Received Import Request.
+  Time since last request: 20.176721 seconds.
+  path: Assets/Devion Games/RPG Kit
+  artifactKey: Guid(a8545d2a8a6b1b9488199573632f12d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devion Games/RPG Kit using Guid(a8545d2a8a6b1b9488199573632f12d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '758e3f7eb6a3c49387b22401007f0641') in 0.002869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.106124 seconds.
+  path: Assets/Devion Games/RPG Kit/Scenes
+  artifactKey: Guid(37779765b3fc6d94db378e04db88e153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devion Games/RPG Kit/Scenes using Guid(37779765b3fc6d94db378e04db88e153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d46b64d637011d0dc2ff131c72c925') in 0.000589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.974842 seconds.
+  path: Assets/Devion Games/RPG Kit/Scenes/Create Character.unity
+  artifactKey: Guid(5aeb5602255a4b2469eb895d12e20011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devion Games/RPG Kit/Scenes/Create Character.unity using Guid(5aeb5602255a4b2469eb895d12e20011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0f0817b18c7dc9a24a51a4376e837e') in 0.000943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.821250 seconds.
+  path: Assets/Devion Games/RPG Kit/Scenes/Start.unity
+  artifactKey: Guid(ced6083b00705a64689031271f542081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devion Games/RPG Kit/Scenes/Start.unity using Guid(ced6083b00705a64689031271f542081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9178e37f32d0c095055cbe1c08759161') in 0.000707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.640 seconds
+Refreshing native plugins compatible for Editor in 4.02 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+System.InvalidOperationException: The operation is not possible when moved past all properties (Next returned false)
+  at UnityEditor.SerializedProperty.get_stringValue () [0x00012] in /Users/bokken/build/output/unity/unity/Editor/Mono/SerializedProperty.bindings.cs:1148 
+  at DevionGames.WriteInputManager.AxisDefined (System.String axisName) [0x0003c] in /Users/leon.loukine/Documents/GitHub/UnityKnight/Heroes/Assets/Devion Games/Third Person Controller/Scripts/Editor/WriteInputManager.cs:84 
+  at DevionGames.WriteInputManager..cctor () [0x00000] in /Users/leon.loukine/Documents/GitHub/UnityKnight/Heroes/Assets/Devion Games/Third Person Controller/Scripts/Editor/WriteInputManager.cs:13 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:127)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 127)
+
+Fixing exec order for 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DevionGames.StatSystem.ExecutionOrderValidator:.cctor () (at Assets/Devion Games/Stat System/Scripts/Editor/ExecutionOrderValidator.cs:18)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:119)
+
+(Filename: Assets/Devion Games/Stat System/Scripts/Editor/ExecutionOrderValidator.cs Line: 18)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.729 seconds
+Domain Reload Profiling: 2369ms
+	BeginReloadAssembly (194ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (356ms)
+		LoadAssemblies (419ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1730ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1104ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (954ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 6.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4082 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (0.8 MB). Loaded Objects now: 4640.
+Memory consumption went from 207.9 MB to 207.1 MB.
+Total: 7.851575 ms (FindLiveObjects: 0.591692 ms CreateObjectMapping: 0.434892 ms MarkObjects: 6.142103 ms  DeleteObjects: 0.680769 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 35.662508 seconds.
+  path: Assets/Devion Games/RPG Kit/Scenes/Main Scene
+  artifactKey: Guid(a0c36d05242f3474e854968760aeedbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devion Games/RPG Kit/Scenes/Main Scene using Guid(a0c36d05242f3474e854968760aeedbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9209050777eb400ed30fe0ae84b5a58b') in 0.003204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.090394 seconds.
+  path: Assets/Devion Games/RPG Kit/Scenes/Main Scene/LightingData.asset
+  artifactKey: Guid(c0e61c7f39ea6614fb8ef26cb7746d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devion Games/RPG Kit/Scenes/Main Scene/LightingData.asset using Guid(c0e61c7f39ea6614fb8ef26cb7746d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91096235265ca9e73bd14424d934517') in 0.024210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.347446 seconds.
+  path: Assets/Devion Games/RPG Kit/Scenes/Main Scene.unity
+  artifactKey: Guid(1ec7bd8f44f71db47b5420126fa7366e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devion Games/RPG Kit/Scenes/Main Scene.unity using Guid(1ec7bd8f44f71db47b5420126fa7366e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac857ece24a093225388718e92edc6e') in 0.001382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.633 seconds
+Refreshing native plugins compatible for Editor in 4.83 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+System.InvalidOperationException: The operation is not possible when moved past all properties (Next returned false)
+  at UnityEditor.SerializedProperty.get_stringValue () [0x00012] in /Users/bokken/build/output/unity/unity/Editor/Mono/SerializedProperty.bindings.cs:1148 
+  at DevionGames.WriteInputManager.AxisDefined (System.String axisName) [0x0003c] in /Users/leon.loukine/Documents/GitHub/UnityKnight/Heroes/Assets/Devion Games/Third Person Controller/Scripts/Editor/WriteInputManager.cs:84 
+  at DevionGames.WriteInputManager..cctor () [0x00000] in /Users/leon.loukine/Documents/GitHub/UnityKnight/Heroes/Assets/Devion Games/Third Person Controller/Scripts/Editor/WriteInputManager.cs:13 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:127)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 127)
+
+Fixing exec order for 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DevionGames.StatSystem.ExecutionOrderValidator:.cctor () (at Assets/Devion Games/Stat System/Scripts/Editor/ExecutionOrderValidator.cs:18)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:119)
+
+(Filename: Assets/Devion Games/Stat System/Scripts/Editor/ExecutionOrderValidator.cs Line: 18)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.554 seconds
+Domain Reload Profiling: 2188ms
+	BeginReloadAssembly (197ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (346ms)
+		LoadAssemblies (410ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1555ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1009ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (884ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4082 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (0.8 MB). Loaded Objects now: 4644.
+Memory consumption went from 217.1 MB to 216.3 MB.
+Total: 5.043521 ms (FindLiveObjects: 0.332095 ms CreateObjectMapping: 0.265485 ms MarkObjects: 3.793508 ms  DeleteObjects: 0.651445 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 82.666974 seconds.
+  path: Assets/Devion Games/RPG Kit/Prefabs
+  artifactKey: Guid(7dd74da321dc00048949f0ee0a054ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devion Games/RPG Kit/Prefabs using Guid(7dd74da321dc00048949f0ee0a054ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b710f4beda68f6321c6fed1cec2d39d') in 0.003593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.572200 seconds.
+  path: Assets/Devion Games/RPG Kit/Prefabs/NPC
+  artifactKey: Guid(a93cc77c6fa2ba440bf53225d556e8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devion Games/RPG Kit/Prefabs/NPC using Guid(a93cc77c6fa2ba440bf53225d556e8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05dd746515daa8a026e404e929837cf8') in 0.001002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100487 seconds.
+  path: Assets/Devion Games/RPG Kit/Prefabs/NPC/Skeleton Footman.prefab
+  artifactKey: Guid(424d353102968b249b9d7b0f844f8d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devion Games/RPG Kit/Prefabs/NPC/Skeleton Footman.prefab using Guid(424d353102968b249b9d7b0f844f8d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Refreshing native plugins compatible for Editor in 7.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ -> (artifact id: 'd59d2917399a8b7b28931da8695a04ce') in 0.545835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 685
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Devion Games/RPG Kit/Prefabs/NPC/Spider.prefab
+  artifactKey: Guid(7128f27b1ed1baf489c8389ed5d6fc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devion Games/RPG Kit/Prefabs/NPC/Spider.prefab using Guid(7128f27b1ed1baf489c8389ed5d6fc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Refreshing native plugins compatible for Editor in 3.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ -> (artifact id: '4e659ce1b4251ecd8c108af7341e524e') in 0.983978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 577
+========================================================================
+Received Import Request.
+  Time since last request: 923.462793 seconds.
+  path: Assets/Devion Games/RPG Kit/Scenes/Sound
+  artifactKey: Guid(8653a634578814ba3b076285bd9abd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devion Games/RPG Kit/Scenes/Sound using Guid(8653a634578814ba3b076285bd9abd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ae64a09f3a3add0f16ab3addd0040e') in 0.015547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 21.081896 seconds.
+  path: Assets/Devion Games/RPG Kit/Scenes/Sound/FEETHmn_Pas lourd sur gravier (ID 0085)_LS.wav
+  artifactKey: Guid(1de56d4f5a2c842c78c9b7f7edfdd811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devion Games/RPG Kit/Scenes/Sound/FEETHmn_Pas lourd sur gravier (ID 0085)_LS.wav using Guid(1de56d4f5a2c842c78c9b7f7edfdd811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4016009c15c02e0e97e464159c426622') in 0.052035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 41.070789 seconds.
+  path: Assets/Devion Games/RPG Kit/Scenes/Sound/MarcheLourdeGravier.wav
+  artifactKey: Guid(1de56d4f5a2c842c78c9b7f7edfdd811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devion Games/RPG Kit/Scenes/Sound/MarcheLourdeGravier.wav using Guid(1de56d4f5a2c842c78c9b7f7edfdd811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f4c9fa5cc4a06fc4a3eb3589d46ca5') in 0.008382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 189.216979 seconds.
+  path: Assets/Devion Games/RPG Kit/Scenes/Sound/New Folder
+  artifactKey: Guid(edf0aed1cb5334f3595712aee18f86d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devion Games/RPG Kit/Scenes/Sound/New Folder using Guid(edf0aed1cb5334f3595712aee18f86d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8796a147b89d6697c75d49621ee4c32') in 0.000783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.534255 seconds.
+  path: Assets/SOUNDS
+  artifactKey: Guid(c84e1bda8e0054ec59c53dad4a112862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS using Guid(c84e1bda8e0054ec59c53dad4a112862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c972a1d699c8c2ebbd23420d510174d6') in 0.001098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 186.906440 seconds.
+  path: Assets/Scripts/Animate.cs
+  artifactKey: Guid(abfeb0f6c61a544878b8e81b2719b21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Animate.cs using Guid(abfeb0f6c61a544878b8e81b2719b21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db51b390d7ed6a562c8cf405b36ee5e7') in 0.000897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 210.942980 seconds.
+  path: Assets/Scripts/Animate.cs
+  artifactKey: Guid(abfeb0f6c61a544878b8e81b2719b21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Animate.cs using Guid(abfeb0f6c61a544878b8e81b2719b21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '472e2e8f09a2221e6ec1c1022d630735') in 0.001096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 90.292020 seconds.
+  path: Assets/Scripts/Animate.cs
+  artifactKey: Guid(abfeb0f6c61a544878b8e81b2719b21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Animate.cs using Guid(abfeb0f6c61a544878b8e81b2719b21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b46f946e473262d28af6a8f76280fb8b') in 0.000609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.076 seconds
+Refreshing native plugins compatible for Editor in 5.61 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+System.InvalidOperationException: The operation is not possible when moved past all properties (Next returned false)
+  at UnityEditor.SerializedProperty.get_stringValue () [0x00012] in /Users/bokken/build/output/unity/unity/Editor/Mono/SerializedProperty.bindings.cs:1148 
+  at DevionGames.WriteInputManager.AxisDefined (System.String axisName) [0x0003c] in /Users/leon.loukine/Documents/GitHub/UnityKnight/Heroes/Assets/Devion Games/Third Person Controller/Scripts/Editor/WriteInputManager.cs:84 
+  at DevionGames.WriteInputManager..cctor () [0x00000] in /Users/leon.loukine/Documents/GitHub/UnityKnight/Heroes/Assets/Devion Games/Third Person Controller/Scripts/Editor/WriteInputManager.cs:13 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:127)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 127)
+
+Fixing exec order for 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DevionGames.StatSystem.ExecutionOrderValidator:.cctor () (at Assets/Devion Games/Stat System/Scripts/Editor/ExecutionOrderValidator.cs:18)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:119)
+
+(Filename: Assets/Devion Games/Stat System/Scripts/Editor/ExecutionOrderValidator.cs Line: 18)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.194 seconds
+Domain Reload Profiling: 3271ms
+	BeginReloadAssembly (276ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (97ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (679ms)
+		LoadAssemblies (727ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (79ms)
+			TypeCache.Refresh (29ms)
+				TypeCache.ScanAssembly (9ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (2195ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (935ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (818ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4082 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (0.8 MB). Loaded Objects now: 4654.
+Memory consumption went from 227.1 MB to 226.3 MB.
+Total: 7.092293 ms (FindLiveObjects: 0.386716 ms CreateObjectMapping: 0.347265 ms MarkObjects: 5.419071 ms  DeleteObjects: 0.938032 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
